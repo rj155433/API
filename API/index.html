@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Währungsrechner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>Währungsrechner</h1>
+        <p>Euro zu weiteren Währungen</p>
+        <input type="number" id="euroAmount" placeholder="Betrag in Euro">
+        <select id="currencySelect">
+            <option value="1.09">US-Dollar (USD)</option>
+            <option value="0.93">Schweizer Franken (CHF)</option>
+            <option value="0.86">Britisches Pfund (GBP)</option>
+            <option value="7.49">Hongkong-Dollar (HKD)</option>
+            <option value="1.51">Kanadischer Dollar (CAD)</option>
+        </select>
+        <button onclick="convertCurrency()">Umrechnen</button>
+        <div class="result" id="result"></div>
+    </div>
+    <div class="footer">
+        <p>Made by Justin Richter</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
